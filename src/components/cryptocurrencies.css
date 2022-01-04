@@ -1,0 +1,12 @@
+.search_crypto{
+    width: 40%;
+    margin: 2.5rem auto;
+}
+.searchInput{
+    border-radius: 10px;
+    height: 3rem;
+}
+
+.card{
+    border-radius: 10px;
+}
