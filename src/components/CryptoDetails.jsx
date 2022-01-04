@@ -16,7 +16,7 @@ const CryptoDetails = () => {
     
     
     const {coinId} =  useParams()
-    const [timeperiod, setTimePeriod] = useState('7d');
+    const [timeperiod, setTimePeriod] = useState('24h');
     const {data, isFetching} = useGetCryptoDetailsQuery(coinId);
     const {data:coinHistory} = useGetCryptoHistoryQuery({coinId, timeperiod});
 
@@ -50,13 +50,13 @@ const CryptoDetails = () => {
                 <Title level={2} className="coin-name">{data?.data?.coin.name} ({data?.data?.coin.symbol}) Price</Title>
                 <p>{data?.data?.coin.name} Live price in US dollars</p>
             </Col>
-            <Select defaultValue="7d" className="select-timeperiod" placeholder="Select Time Period"
+            <Select defaultValue="24h" className="select-timeperiod" placeholder="Select Time Period"
             onChange={(value) => setTimePeriod(value)}>
                 {time.map((date) =>(
                         <Option key={date}>{date}</Option>
                 ))}
             </Select>
-            ici line chart
+            {/* ici line chart */}
            <LineChart coinHistory={coinHistory} currentPrice={millify(cryptoDetails.price)} coinName={cryptoDetails.name} />
             <Col className="stats-container">
                 <Col className="coin-value-statistics">
