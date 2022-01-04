@@ -10,3 +10,13 @@
 .card{
     border-radius: 10px;
 }
+
+.select{
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.select-news{
+    margin: 0 auto;
+}
