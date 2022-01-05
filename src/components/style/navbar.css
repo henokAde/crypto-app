@@ -2,3 +2,7 @@
     vertical-align: middle;
     padding-bottom: 30px;
 }
+
+.logo-container{
+    display: flex;
+}
