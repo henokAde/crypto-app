@@ -20,7 +20,6 @@ a:hover{
 .app{
     display: flex;
     overflow: hidden;
-    font-family: 'Comfortaa', cursive;
 }
 
 .navbar{
@@ -50,9 +49,7 @@ a:hover{
     display: flex;
     padding: 20px;
     align-items: center;
-  
     width: 100%;
-
 }
 .logo{
     margin:0 0 0 15px;
@@ -377,8 +374,8 @@ width: 70%;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    align-items: center;
 }
-
 /* Add css */
 
 .space{
