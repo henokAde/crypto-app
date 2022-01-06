@@ -1,0 +1,19 @@
+.send-section {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.services-container{
+    display: flex;
+}
+
+/* .bg-color-service{
+    background-color: rgba(14, 0, 0, 0.521);
+} */
+
+@media screen and (max-width: 1465px) {
+    .services-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space} from 'antd';
-import {Navbar, Homepage, CryptoDetails, Cryptocurrencies, News, Send} from './components';
+import {Navbar, Homepage, CryptoDetails, Cryptocurrencies, News, Send, Services} from './components';
 import './App.css'
 
 
@@ -19,7 +19,7 @@ const App = () => {
                         <Homepage />
                       </Route>
                       <Route exact path="/send">
-                        <Send />
+                        <Send Services = {Services} />
                       </Route>
                       <Route exact path="/cryptocurrencies">
                         <Cryptocurrencies />
