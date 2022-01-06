@@ -12,6 +12,8 @@
     "axios": "^0.24.0",
     "chart.js": "^3.7.0",
     "dayjs": "^1.10.7",
+    "eth-revert-reason": "^1.0.3",
+    "ethers": "^5.5.1",
     "html-react-parser": "^1.4.4",
     "linechart": "^2.0.0",
     "millify": "^4.0.0",
